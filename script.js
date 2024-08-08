@@ -19,7 +19,7 @@ function skewAnim(){
 
     window.addEventListener("mousemove", function(dets){
         clearTimeout(timeout);
-        //  clamp mai hm min and max value dete hai or uske sath input toh agar imput min ya max se kum zyada ho to to wo value min ya max mai convert ya nearest to them convert ho jato ha
+        //  clamp mai hm min and max value dete hai or uske sath input toh agar input min ya max se kum zyada ho to to wo value min ya max mai convert ya nearest to them convert ho jato ha
         xscale = gsap.utils.clamp(.8,1.2, dets.clientX - xprev);
         yscale = gsap.utils.clamp(.8,1.2, dets.clientY - yprev);
 
