@@ -8,7 +8,7 @@ const scroll = new LocomotiveScroll({
 
 var timeout;
 
-// mouse move ho to jo white circle hai jo mouse ke sath move hota hai wo limited skew ho jismai hn min-max skew dengay, and when mouse move ho toh skew value increase ho but when mouse not moving then skew back to normal place
+// mouse move ho to jo white circle hai jo mouse ke sath move hota hai wo limited skew ho jismai hm min-max skew dengay, and when mouse move ho toh skew value increase ho but when mouse not moving then skew back to normal place
 function skewAnim(){
     // defining default scale value
     var xscale = 1;
